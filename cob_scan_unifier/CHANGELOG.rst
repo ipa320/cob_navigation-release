@@ -2,17 +2,12 @@
 Changelog for package cob_scan_unifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.6.2 (2015-06-17)
+0.5.3 (2015-08-31)
 ------------------
-* cob_scan_unifier: get rid of exported but uninstalled include path
-* cob_scan_unifier: fix include folder stuff
-* Contributors: ipa-mig
-
-0.6.1 (2014-09-18)
-------------------
-
-0.6.0 (2014-09-10)
-------------------
+* reduced MAGIC NUMBER
+* check range values
+* round index
+* Contributors: ipa-josh
 
 0.5.2 (2014-08-28)
 ------------------

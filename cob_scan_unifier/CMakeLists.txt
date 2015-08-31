@@ -27,12 +27,16 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
+  INCLUDE_DIRS 
+    include
+#  LIBRARIES cob_scan_unifier
   CATKIN_DEPENDS 
     laser_geometry 
     roscpp 
     rospy 
     sensor_msgs 
     tf
+#  DEPENDS system_lib
 )
 
 ###########
@@ -43,7 +47,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 include_directories(
-  include
+  include/cob_scan_unifier
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -79,4 +83,5 @@ install(TARGETS scan_unifier_node
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
 
