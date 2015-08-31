@@ -2,10 +2,22 @@
 Changelog for package cob_mapping_slam
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.5.3 (2015-08-31)
+0.6.3 (2015-08-31)
 ------------------
-* Merge tag '0.5.2' into hydro_release_candidate
+* migration to package format v2, indentation fixes
 * Contributors: ipa-mig
+
+0.6.2 (2015-06-17)
+------------------
+
+0.6.1 (2014-09-18)
+------------------
+
+0.6.0 (2014-09-10)
+------------------
+* Merge branch 'indigo_dev' into indigo_release_candidate
+* fix dependencies
+* Contributors: Florian Weisshardt
 
 0.5.2 (2014-08-28)
 ------------------

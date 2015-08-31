@@ -2,7 +2,22 @@
 Changelog for package cob_navigation_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.5.3 (2015-08-31)
+0.6.3 (2015-08-31)
+------------------
+* cob_navigation_config: remove robots not supported anymore
+* remove trailing whitespace
+* migration to package format v2, indentation fixes
+* Contributors: ipa-mig
+
+0.6.2 (2015-06-17)
+------------------
+
+0.6.1 (2014-09-18)
+------------------
+* added cob4-2 configuration
+* Contributors: ipa-cob4-2
+
+0.6.0 (2014-09-10)
 ------------------
 
 0.5.2 (2014-08-28)
