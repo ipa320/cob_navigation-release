@@ -1,0 +1,27 @@
+ros-hydro-cob-navigation (0.5.3-0quantal) quantal; urgency=high
+
+  * Merge tag '0.5.2' into hydro_release_candidate
+  * Contributors: ipa-mig
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-hydro-cob-navigation (0.5.2-0quantal) quantal; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-hydro-cob-navigation (0.5.1-0quantal) quantal; urgency=high
+
+  * add changelog
+  * version bump
+  * adjust CMakeLists and package.xml
+  * set author/maintainer email
+  * Catkinisation and gitignore.
+  * Contributors: Florian Weisshardt, IPR-SR2, ipa-mig
+  * Catkinisation and gitignore.
+  * Contributors: IPR-SR2
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Thu, 20 Mar 2014 23:00:00 -0000
+
+
