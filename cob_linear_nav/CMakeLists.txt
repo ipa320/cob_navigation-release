@@ -3,6 +3,7 @@ project(cob_linear_nav)
 
 find_package(catkin REQUIRED COMPONENTS
   actionlib
+  cob_srvs
   geometry_msgs
   move_base_msgs
   nav_msgs
@@ -13,6 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package()
 
 include_directories(${catkin_INCLUDE_DIRS})
+
+add_definitions(-std=c++11)
 
 add_executable(${PROJECT_NAME} src/cob_linear_nav.cpp)
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
