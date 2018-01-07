@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-mapping-slam
+Section: misc
+Priority: extra
+Maintainer: Felix Zeltner <fez@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/cob_mapping_slam
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-mapping-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-navigation-global, ros-kinetic-gmapping
+Description: cob_mapping_slam holds launch files for running SLAM using the gmapping package.
