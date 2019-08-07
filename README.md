@@ -1,3 +1,34 @@
+## cob_navigation (melodic) - 0.6.8-1
+
+The packages in the `cob_navigation` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cob_navigation --rosdistro melodic` on `Wed, 07 Aug 2019 20:28:03 -0000`
+
+These packages were released:
+- `cob_linear_nav`
+- `cob_map_accessibility_analysis`
+- `cob_mapping_slam`
+- `cob_navigation`
+- `cob_navigation_config`
+- `cob_navigation_global`
+- `cob_navigation_local`
+- `cob_navigation_slam`
+
+Version of package(s) in repository `cob_navigation`:
+
+- upstream repository: https://github.com/ipa320/cob_navigation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.6.8-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## cob_navigation (kinetic) - 0.6.8-1
 
 The packages in the `cob_navigation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_navigation --rosdistro kinetic` on `Wed, 07 Aug 2019 20:18:00 -0000`
