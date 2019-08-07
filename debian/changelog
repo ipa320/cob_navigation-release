@@ -1,0 +1,110 @@
+ros-melodic-cob-mapping-slam (0.6.8-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.7-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.6-1bionic) bionic; urgency=high
+
+  * Merge pull request #97 <https://github.com/ipa320/cob_navigation/issues/97> from ipa320/indigo_release_candidate
+    Indigo release candidate
+  * Merge pull request #91 <https://github.com/ipa320/cob_navigation/issues/91> from ipa-fxm/update_maintainer
+    update maintainer
+  * update maintainer
+  * Merge pull request #89 <https://github.com/ipa320/cob_navigation/issues/89> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fez, ipa-fxm, ipa-uhr-mk
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.5-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.4-1bionic) bionic; urgency=high
+
+  * restructure laser topics
+  * removed scan_unifier from cob_navigation
+  * Contributors: Benjamin Maidel, ipa-fxm
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.3-1bionic) bionic; urgency=high
+
+  * migration to package format v2, indentation fixes
+  * Contributors: ipa-mig
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.2-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.1-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Wed, 17 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.6.0-1bionic) bionic; urgency=high
+
+  * Merge branch 'indigo_dev' into indigo_release_candidate
+  * fix dependencies
+  * Contributors: Florian Weisshardt
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 09 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.5.2-1bionic) bionic; urgency=high
+
+  * fixed indentation of 2dslam.xml
+  * fixed the gmapping launch file after cob_scan_unifier rework
+  * Contributors: Florian Mirus
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-melodic-cob-mapping-slam (0.5.1-1bionic) bionic; urgency=high
+
+  * add changelog
+  * version bump
+  * remove more not needed files
+  * adjust CMakeLists and package.xml
+  * set author/maintainer email
+  * cob_mapping_slam: add missing dep
+  * cob_mapping_slam: adjust launch argument
+  * standalone package for unified scan publisher (issue #18 <https://github.com/ipa320/cob_navigation/issues/18>)
+  * added argument to switch between front or unified front and rear scans in cob_mapping_slam
+  * Added new argument for easier choosing between unified scan and front scan.
+  * Catkinisation and gitignore.
+  * add roslaunch tests
+  * adjust roslaunch checks
+  * fix wiki links inf manifest.xml and stack.xml
+  * adjust manifests for documentation
+  * refactoring of slam launch files
+  * refactoring of cob_navigation_config; current cob_drivers required
+  * rearrange stack
+  * Contributors: Alexander Bubeck, Denis Štogl, Florian Weisshardt, IPR-SR2, ipa-fmw, ipa-mig, robot
+  * Added new argument for easier choosing between unified scan and front scan.
+  * Catkinisation and gitignore.
+  * add roslaunch tests
+  * adjust roslaunch checks
+  * fix wiki links inf manifest.xml and stack.xml
+  * adjust manifests for documentation
+  * refactoring of slam launch files
+  * refactoring of cob_navigation_config; current cob_drivers required
+  * rearrange stack
+  * Contributors: Alexander Bubeck, Denis Štogl, IPR-SR2, ipa-fmw, ipa-mig
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Thu, 20 Mar 2014 23:00:00 -0000
+
+
