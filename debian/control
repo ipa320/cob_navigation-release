@@ -1,0 +1,13 @@
+Source: ros-melodic-cob-navigation-global
+Section: misc
+Priority: extra
+Maintainer: Felix Zeltner <fez@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cob-default-env-config, ros-melodic-cob-supported-robots, ros-melodic-roslaunch
+Homepage: http://ros.org/wiki/cob_navigation_global
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-navigation-global
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-amcl, ros-melodic-cob-default-env-config, ros-melodic-cob-linear-nav, ros-melodic-cob-navigation-config, ros-melodic-cob-scan-unifier, ros-melodic-dwa-local-planner, ros-melodic-map-server, ros-melodic-move-base, ros-melodic-rviz, ros-melodic-topic-tools
+Description: This package holds config and launch files for running the move_base node on the Care-O-bot.
+ The move_base node is configured to run over a pre-specified static map.
