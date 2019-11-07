@@ -1,0 +1,13 @@
+Source: ros-kinetic-cob-navigation-local
+Section: misc
+Priority: optional
+Maintainer: Felix Zeltner <fez@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-supported-robots, ros-kinetic-roslaunch
+Homepage: http://ros.org/wiki/cob_navigation_local
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-navigation-local
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-navigation-config, ros-kinetic-dwa-local-planner, ros-kinetic-move-base, ros-kinetic-rviz
+Description: This package holds config and launch files for running the move_base node on the Care-O-bot in an odometric frame.
+ No static map is needed for the move_base node in this configuration.
