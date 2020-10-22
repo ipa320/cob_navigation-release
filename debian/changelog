@@ -1,0 +1,169 @@
+ros-melodic-cob-linear-nav (0.6.11-1bionic) bionic; urgency=high
+
+  * Merge pull request #120 <https://github.com/ipa320/cob_navigation/issues/120> from fmessmer/test_noetic
+    test noetic
+  * Bump CMake version to avoid CMP0048 warning
+  * Merge pull request #119 <https://github.com/ipa320/cob_navigation/issues/119> from AravindaDP/feat/cob_linear_nav-velocity_threshold_param
+    feat: [cob_linear_nav] Goal abortion speed params
+  * feat: [cob_linear_nav] Goal abortion speed params
+    Support adjusting linear and rotational velocity thresholds for goal
+    abortion detection. (No movement due to obstacle)
+  * Merge pull request #117 <https://github.com/ipa320/cob_navigation/issues/117> from AravindaDP/feat/cob_linear_nav_footprint_tf_param
+    feat: robot_footprint_frame rosparam
+  * feat: robot_footprint_frame rosparam
+    Support setting robot_footprint_frame as a rosparam (issues/116)
+    (defaults to "base_footprint")
+  * Contributors: Felix Messmer, Florian Weisshardt, Pramuditha Aravinda, fmessmer
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Wed, 21 Oct 2020 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.10-1bionic) bionic; urgency=high
+
+  * Merge pull request #110 <https://github.com/ipa320/cob_navigation/issues/110> from HannesBachter/fix/more_output
+    more output for linear_nav
+  * more output for linear_nav
+  * Merge pull request #111 <https://github.com/ipa320/cob_navigation/issues/111> from fmessmer/ci_updates
+    [travis] ci updates
+  * catkin_lint fixes
+  * Contributors: Felix Messmer, fmessmer, hyb
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.9-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.8-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.7-1bionic) bionic; urgency=high
+
+  * Merge pull request #100 <https://github.com/ipa320/cob_navigation/issues/100> from ipa-bnm/fix/simple_goal
+    fixed goal Validation
+  * Merge pull request #101 <https://github.com/ipa320/cob_navigation/issues/101> from ipa-bnm/fix/angular_dist_calculation
+    fixed shortest angular distance calculation
+  * fixed calculation of shortest angluar distance between current and desired yaw
+  * replaced canTransform with waitForTransform to give move_base some chance receiving the transformation needed for move base goal
+  * Contributors: Benjamin Maidel, Felix Messmer, Richard Bormann
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.6-1bionic) bionic; urgency=high
+
+  * Merge pull request #97 <https://github.com/ipa320/cob_navigation/issues/97> from ipa320/indigo_release_candidate
+    Indigo release candidate
+  * Merge pull request #95 <https://github.com/ipa320/cob_navigation/issues/95> from ipa-fxm/less_hysteric_linear_nav
+    less hysteric linear nav
+  * less hysteric linear nav
+  * Merge pull request #91 <https://github.com/ipa320/cob_navigation/issues/91> from ipa-fxm/update_maintainer
+    update maintainer
+  * update maintainer
+  * Merge pull request #89 <https://github.com/ipa320/cob_navigation/issues/89> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fez, ipa-fxm, ipa-uhr-mk
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.5-1bionic) bionic; urgency=high
+
+  * add c++11 definitions
+  * adjusted look up time stamps and durations of wait for transform
+  * added server to set base_frame, included some wait for transfrom and error handling
+  * Contributors: ipa-fxm, ipa-srd
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.4-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.3-1bionic) bionic; urgency=high
+
+  * remove trailing whitespace
+  * migration to package format v2, indentation fixes
+  * Contributors: ipa-mig
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.2-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.1-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Wed, 17 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.6.0-1bionic) bionic; urgency=high
+
+
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Tue, 09 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.5.2-1bionic) bionic; urgency=high
+
+  * linear_nav: changed ROS_INFO to ROS_DEBUG in topicCB
+  * cob_linear_nav: fix indentation
+  * cob_linear_nav: initialize some more variables, check if received goal has invalid Quaternion
+  * cob_linear_nav: change order of nan and high velocity check to catch them with correct error msg
+  * cob_linear_nav: now hopefully really found the bug; ros::Time::now()-1 = verybig
+  * cob_linear_nav: change assert to try-catch to check that in all modes
+  * cob_linear_nav: initialize variable and add assertions
+  * Merge remote-tracking branch 'origin-ipa-aub/hydro_dev' into feature/baer_error_control
+  * included the option for linear_nav to perform the controller step frequently and update the goal with each topic callback instead of using actions
+  * Changed frame_ids to non slashed versions. TF should now work with hydro.
+  * add extra install tags to be consistent with rest of repos
+  * Contributors: Alexander Bubeck, Florian Mirus, ipa-mig
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-melodic-cob-linear-nav (0.5.1-1bionic) bionic; urgency=high
+
+  * add changelog
+  * version bump
+  * remove more not needed files
+  * adjust CMakeLists and package.xml
+  * set author/maintainer email
+  * Catkinisation and gitignore.
+  * fix wiki links inf manifest.xml and stack.xml
+  * transform goal from rviz to /map frame
+  * remove unused publisher
+  * rearrange stack
+  * rename cob_linear_nav to cob_navigation_linear, rearrange again
+  * change default parameter
+  * tidy up
+  * change parameters
+  * remove collision avoidance from cob_linear_nav, now handled by cob_collision_velocity_filter
+  * add launch test
+  * update stack
+  * move linear_nav to cob_navigation
+  * Contributors: Florian Weisshardt, IPR-SR2, ipa-fmw, ipa-mig, nhg-ipa
+  * Catkinisation and gitignore.
+  * fix wiki links inf manifest.xml and stack.xml
+  * transform goal from rviz to /map frame
+  * remove unused publisher
+  * rearrange stack
+  * rename cob_linear_nav to cob_navigation_linear, rearrange again
+  * change default parameter
+  * tidy up
+  * change parameters
+  * remove collision avoidance from cob_linear_nav, now handled by cob_collision_velocity_filter
+  * add launch test
+  * update stack
+  * move linear_nav to cob_navigation
+  * Contributors: IPR-SR2, ipa-fmw, ipa-mig, nhg-ipa
+
+ -- Felix Zeltner <fez@ipa.fraunhofer.de>  Thu, 20 Mar 2014 23:00:00 -0000
+
+
