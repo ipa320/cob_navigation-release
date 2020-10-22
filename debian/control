@@ -1,0 +1,13 @@
+Source: ros-noetic-cob-navigation-global
+Section: misc
+Priority: optional
+Maintainer: Felix Zeltner <fez@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cob-default-env-config, ros-noetic-cob-supported-robots, ros-noetic-roslaunch
+Homepage: http://ros.org/wiki/cob_navigation_global
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-navigation-global
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-amcl, ros-noetic-cob-default-env-config, ros-noetic-cob-linear-nav, ros-noetic-cob-navigation-config, ros-noetic-cob-scan-unifier, ros-noetic-dwa-local-planner, ros-noetic-map-server, ros-noetic-move-base, ros-noetic-rviz, ros-noetic-topic-tools
+Description: This package holds config and launch files for running the move_base node on the Care-O-bot.
+ The move_base node is configured to run over a pre-specified static map.
