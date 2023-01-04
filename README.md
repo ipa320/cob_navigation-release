@@ -1,3 +1,34 @@
+## cob_navigation (noetic) - 0.6.14-1
+
+The packages in the `cob_navigation` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic cob_navigation` on `Wed, 04 Jan 2023 11:22:03 -0000`
+
+These packages were released:
+- `cob_linear_nav`
+- `cob_map_accessibility_analysis`
+- `cob_mapping_slam`
+- `cob_navigation`
+- `cob_navigation_config`
+- `cob_navigation_global`
+- `cob_navigation_local`
+- `cob_navigation_slam`
+
+Version of package(s) in repository `cob_navigation`:
+
+- upstream repository: https://github.com/ipa320/cob_navigation.git
+- release repository: https://github.com/ipa320/cob_navigation-release.git
+- rosdistro version: `0.6.13-1`
+- old version: `0.6.13-1`
+- new version: `0.6.14-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_navigation (noetic) - 0.6.13-1
 
 The packages in the `cob_navigation` repository were released into the `noetic` distro by running `/usr/bin/bloom-release cob_navigation --rosdistro noetic` on `Fri, 29 Jul 2022 13:59:26 -0000`
