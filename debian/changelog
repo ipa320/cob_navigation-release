@@ -1,0 +1,107 @@
+ros-noetic-cob-map-accessibility-analysis (0.6.15-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 18 Feb 2024 23:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.14-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 03 Jan 2023 23:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.13-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Thu, 28 Jul 2022 22:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.12-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 09 May 2021 22:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.11-1focal) focal; urgency=high
+
+  * Merge pull request #120 <https://github.com/ipa320/cob_navigation/issues/120> from fmessmer/test_noetic
+    test noetic
+  * Bugfix for OpenCV API change 2
+  * Bugfix for OpenCV API change
+  * use setuptools instead of distutils
+  * Bump CMake version to avoid CMP0048 warning
+  * Contributors: Felix Messmer, Richard Bormann, fmessmer
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Wed, 21 Oct 2020 22:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.10-1focal) focal; urgency=high
+
+  * Merge pull request #113 <https://github.com/ipa320/cob_navigation/issues/113> from fmessmer/feature/python3_compatibility
+    [ci_updates] pylint + Python3 compatibility
+  * disable pylint reporting false positives
+  * fix pylint errors
+  * Merge pull request #111 <https://github.com/ipa320/cob_navigation/issues/111> from fmessmer/ci_updates
+    [travis] ci updates
+  * catkin_lint fixes
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.9-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.8-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.7-1focal) focal; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.6-1focal) focal; urgency=high
+
+  * Merge pull request #97 <https://github.com/ipa320/cob_navigation/issues/97> from ipa320/indigo_release_candidate
+    Indigo release candidate
+  * Merge pull request #94 <https://github.com/ipa320/cob_navigation/issues/94> from ipa-rmb/indigo_dev
+    corrected comment
+  * corrected comment
+  * Merge pull request #93 <https://github.com/ipa320/cob_navigation/issues/93> from ipa-fez/bugfix/install_map_accessibility_analysis_library
+    install libmap_accessibility_analysis
+  * install libmap_accessibility_analysis
+  * Merge pull request #92 <https://github.com/ipa320/cob_navigation/issues/92> from ipa-rmb/indigo_dev
+    some format harmonization
+  * some format harmonization
+  * Merge pull request #89 <https://github.com/ipa320/cob_navigation/issues/89> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix, Felix Messmer, Richard Bormann, ipa-uhr-mk
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-noetic-cob-map-accessibility-analysis (0.6.5-1focal) focal; urgency=high
+
+  * remove obsolete dependencies to cmake_modules
+  * added comment
+  * disabled the output
+  * bugfix
+  * moved two functions to the public section in class
+  * added missing dependency
+  * code review
+  * restructuring map_accessibility_analysis so that it can be used as lib and as ROS service
+  * Fixed headers and output
+  * Fix compile warning
+  * Reformatted source files with ipa_code_refactoring
+  * Fixed headers and replaced std::cout with ROS logging services
+  * Moved files into folder
+  * Contributors: Benjamin Maidel, Elias Marks, Richard Bormann, ipa-fxm
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+
